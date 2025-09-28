@@ -15,4 +15,4 @@ public class Lab1q1
 		System.out.println("Temp. of Thermometer A is " + thermA.getCelsius() );
 		System.out.println("Temp. of Thermometer B is " + tempB);
 	} // end main
-} // end class ThermTest
+} // end class Lab1q1

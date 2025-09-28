@@ -1,3 +1,5 @@
+// Student Name: Rachel O Shea
+// Student ID: C00248457
 // Implements a Thermometer class.
 // Stores the current temperature in Celcius
 
