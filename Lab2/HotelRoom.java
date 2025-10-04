@@ -16,11 +16,11 @@ public class HotelRoom {
         setRoomVacancy(0);
     }
 
-    public HotelRoom(int roomNumber, String RoomType, int RoomVacancy, double rate)
+    public HotelRoom(int roomNumber, String roomType, int roomVacancy, double rate)
     {
         setRoomNumber(roomNumber);
-        setRoomType(RoomType);
-        setRoomVacancy(RoomVacancy);
+        setRoomType(roomType);
+        setRoomVacancy(roomVacancy);
         setRoomRate(rate);
     }
 
