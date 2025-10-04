@@ -6,11 +6,14 @@ public class HotelRoom {
     
     private int roomNumber;
     private String roomType;
+    private int roomVacancy;
+    private double roomRate;
 
     public HotelRoom()
     {
         setRoomNumber(0);
         setRoomType("Single");
+        setRoomVacancy(0);
     }
 
     public void setRoomNumber(int num)
@@ -41,5 +44,32 @@ public class HotelRoom {
     public String getRoomType()
     {
         return roomType;
+    }
+
+    public void setRoomVacancy(int vacancy)
+    {
+        if(vacancy == 0 || vacancy == 1)
+        {
+            roomVacancy = vacancy;
+        }
+
+        else 
+        {
+            System.out.println("Room vacancy is not valid.");
+        }
+    }
+    public int getRoomVacancy()
+    {
+        return roomVacancy;
+    }
+
+    public void setRoomRate(double rate)
+    {
+        roomRate = rate;
+    }
+
+    public double getRoomRate()
+    {
+        return roomRate;
     }
 }
