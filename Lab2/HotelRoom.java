@@ -16,6 +16,14 @@ public class HotelRoom {
         setRoomVacancy(0);
     }
 
+    public HotelRoom(int roomNumber, String RoomType, int RoomVacancy, double rate)
+    {
+        setRoomNumber(roomNumber);
+        setRoomType(RoomType);
+        setRoomVacancy(RoomVacancy);
+        setRoomRate(rate);
+    }
+
     public void setRoomNumber(int num)
     {
         roomNumber = num;
