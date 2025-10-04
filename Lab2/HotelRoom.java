@@ -37,6 +37,7 @@ public class HotelRoom {
         else 
         {
             System.out.println("Invalid room type! Must be single or double.");
+            //Account for potential user error
         }
 
     }
@@ -56,6 +57,7 @@ public class HotelRoom {
         else 
         {
             System.out.println("Room vacancy is not valid.");
+            //Account for potential user error
         }
     }
     public int getRoomVacancy()
