@@ -1,22 +1,23 @@
 //Student Name: Rachel O Shea
 // Student ID: C00248457
 //Lab 2 A Q1 - Hotelroom class
+//Set it as HotelRoom2 so that it didn't remove previous setup of HotelRoom
 
-public class HotelRoom {
+public class HotelRoom2 {
     
     private int roomNumber;
     private String roomType;
     private double roomRate;
     private boolean roomOccupancy;
 
-    public HotelRoom()
+    public HotelRoom2()
     {
         setRoomNumber(0);
         setRoomType("Single");
         roomOccupancy = false; //Assign to be vacant by default
     }
 
-    public HotelRoom(int roomNumber, String roomType, boolean isOccupied, double rate)
+    public HotelRoom2(int roomNumber, String roomType, boolean isOccupied, double rate)
     {
         setRoomNumber(roomNumber);
         setRoomType(roomType);
