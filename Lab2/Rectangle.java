@@ -52,4 +52,14 @@ public class Rectangle {
     {
         return "Length = " + length + ", Width = " + width;
     }
+
+    public double getArea()
+    {
+        return length*width;
+    }
+
+    public double getPerimeter()
+    {
+        return 2* (length + width);
+    }
 }
