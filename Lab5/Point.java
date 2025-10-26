@@ -10,41 +10,41 @@ protected int x;
 protected int y;
 
 
-public Point ()
+public Point ()                     // Default constructor
 {
     setX(0);
     setY(0);
 }
 
-public Point (int x, int y)
+public Point (int x, int y)         // Parameterised constructor
 {
     this.x = x;
     this.y = y;
 }
 
-public void setX(int x)
+public void setX(int x)             // Setter method
 {
     this.x = x;
 }
 
-public void setY(int y)
+public void setY(int y)             // Setter method
 {
     this.x = y;
 }
 
-public int getX()
+public int getX()                   // Getter method
 {
     return x;
 }
 
-public int getY()
+public int getY()                   // Getter method
 {
     return y;
 }
 
-public String toString()
+public String toString()            // To String method
 {
-    return "X : " + x + "Y : " + y;
+    return "(" + x + ", " + y +")";
 }
 
 }

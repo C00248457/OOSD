@@ -5,12 +5,27 @@
 
 public class Circle extends Point
 {
-    
-public Circle()
+    private int radius;
+
+public Circle(int x, int y, int radius)
 {
-    
+    super(x,y);                                 // Calling the superclass constructor
+    this.radius = radius;
 }
 
+public void setRadius(int radius)               // Setter method for radius
+{
+    this.radius = radius;
+}
 
+public int getRadius()                          // Getter method for radius
+{
+    return radius;
+}
+
+public String toString()                        // To String method
+{
+    return "(" + x + ", " + y + "), radius is " + radius;
+}
 
 }
