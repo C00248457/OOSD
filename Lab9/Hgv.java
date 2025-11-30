@@ -11,7 +11,7 @@ public class Hgv extends RoadVehicle implements ImportDuty{
 		this(0,0,0, 0.0);
 	}
 
-	public Hgv(int w, int c, int p, double price){ 
+	public Hgv(int c, int w, int p, double price){ 
 		super(w, p);
 		setCargo(c);
 		this.price = price;

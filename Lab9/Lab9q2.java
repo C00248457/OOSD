@@ -8,7 +8,7 @@ public class Lab9q2
 	public static void main(String[] args)
 	{
 		Car car1 = new Car("Focus", 1200, 80, 3500.0);	
-		Hgv hgv1 = new Hgv(6, 2, 120, 50000.0);
+		Hgv hgv1 = new Hgv(120, 6, 2, 50000.0);
 
 		System.out.println("Car Type: " + car1.getType());				// Print car type
 		System.out.println("Car Duty: " + car1.calculateDuty());		// Print car duty
